@@ -9,7 +9,7 @@ $containers = explode($containerConfig, ',');
 $headers = explode($headerConfig, ',');
 $output = &$modx->resource->_output; // get a reference to the output
 $dom = new DOMDocument;
-$dom->loadHTML($output);
+@$dom->loadHTML($output);
 
 function getParentNode($node, $types){
 	$parent = $node->parentNode;
