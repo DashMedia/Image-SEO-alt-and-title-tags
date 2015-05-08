@@ -3,7 +3,7 @@
     "description": "",
     "type": "modx-package",
     "keywords": ["modx","repoman"],
-    "homepage": "https://github.com/dashmedia/image-seo",
+    "homepage": "https://github.com/dashmedia/Image-SEO-alt-and-title-tags",
     "license": "GPL-2.0+",
     "authors": [
         {
@@ -14,9 +14,9 @@
     ],
     "support": {
         "email": "donotreply@yoursite.com",
-        "issues": "https://github.com/dashmedia/image-seo/issues",
+        "issues": "https://github.com/dashmedia/Image-SEO-alt-and-title-tags/issues",
         "forum": "http://forums.modx.com/",
-        "source": "https://github.com/dashmedia/image-seo.git"
+        "source": "https://github.com/DashMedia/Image-SEO-alt-and-title-tags.git"
     },    
     "require": {
         "php": ">=5.3"

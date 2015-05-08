@@ -25,4 +25,6 @@ As this uses the default `DOMDocument` class which relies on php's `libxml2` you
 
 Author: Jason Carney <jason@dashmedia.com.au>
 
+Documentation and bugs <https://github.com/DashMedia/Image-SEO-alt-and-title-tags>
+
 Built using Repoman <https://github.com/craftsmancoding/repoman>
