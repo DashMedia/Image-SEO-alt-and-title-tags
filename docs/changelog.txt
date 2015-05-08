@@ -1,5 +1,22 @@
 Changelog for ImageSeo
 
+ImageSeo 0.10.4-rc1
+---------------------------------
+- Rename plugin file to force overwrite of old plugin on install
+
+ImageSeo 0.10.3-rc1
+---------------------------------
+- Fix for wrong order on explode(...);
+- Code refactor for readability (minor)
+
+ImageSeo 0.10.2-rc1
+---------------------------------
+- Fix for naming error
+
+ImageSeo 0.10.1-rc1
+---------------------------------
+- Update package name for compatability with older build
+
 ImageSeo 0.10.0-rc1
 ---------------------------------
 - Move to repoman packaging system

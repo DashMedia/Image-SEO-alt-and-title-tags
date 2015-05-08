@@ -25,10 +25,10 @@
         "classmap":["model/"]
     },
     "extra": {
-        "package_name": "ImageSeo",
+        "package_name": "ImageSeoAltAndTitleTags",
         "namespace": "imageseo",
-        "version": "1.0.0",
-        "release": "pl",
-        "category":"Utilities"
+        "version": "0.10.4",
+        "release": "rc-1",
+        "category":"Image SEO"
     }
 }
