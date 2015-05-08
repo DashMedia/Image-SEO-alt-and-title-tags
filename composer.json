@@ -1,0 +1,34 @@
+{
+    "name": "dashmedia/image-seo",
+    "description": "",
+    "type": "modx-package",
+    "keywords": ["modx","repoman"],
+    "homepage": "https://github.com/dashmedia/image-seo",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Your Name Here",
+            "email": "you@email.com",
+            "homepage" : "https://dashmedia.com/"
+        }        
+    ],
+    "support": {
+        "email": "donotreply@yoursite.com",
+        "issues": "https://github.com/dashmedia/image-seo/issues",
+        "forum": "http://forums.modx.com/",
+        "source": "https://github.com/dashmedia/image-seo.git"
+    },    
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "classmap":["model/"]
+    },
+    "extra": {
+        "package_name": "ImageSeo",
+        "namespace": "imageseo",
+        "version": "1.0.0",
+        "release": "pl",
+        "category":"Utilities"
+    }
+}

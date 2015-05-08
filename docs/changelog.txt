@@ -1,0 +1,5 @@
+Changelog for ImageSeo
+
+ImageSeo 0.10.0-rc1
+---------------------------------
+- Move to repoman packaging system

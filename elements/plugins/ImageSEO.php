@@ -1,10 +1,21 @@
 <?php
+/**
+ * @name Example
+ * @description This is an example plugin.  List the events it attaches to in the PluginEvents.
+ * @PluginEvents OnWebPagePrerender
+ */
+
+// Your core_path will change depending on whether your code is running on your development environment
+// or on a production environment (deployed via a Transport Package).  Make sure you follow the pattern
+// outlined here. See https://github.com/craftsmancoding/repoman/wiki/Conventions for more info
+$core_path = $modx->getOption('imageseo.core_path', null, MODX_CORE_PATH.'components/imageseo/');
+include_once $core_path .'vendor/autoload.php';
 
 if($modx->resource->get('content_type') == 1){ //only run on HTML doc types
-	$containerConfig = $modx->getOption('img_seo_containers');
+	$containerConfig = $modx->getOption('imageseo.containers');
 	$containerConfig = $containerConfig ? $containerConfig : 'article, section, header, footer, aside';
 
-	$headerConfig = $modx->getOption('img_seo_headings');
+	$headerConfig = $modx->getOption('imageseo.headings');
 	$headerConfig = $headerConfig ? $headerConfig : 'h1,h2,h3,h4,h5,h6';
 
 	$containers = explode($containerConfig, ',');
