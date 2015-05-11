@@ -11,6 +11,8 @@
 $core_path = $modx->getOption('imageseo.core_path', null, MODX_CORE_PATH.'components/imageseo/');
 include_once $core_path .'vendor/autoload.php';
 
+use Masterminds\HTML5;
+
 if($modx->resource->get('content_type') == 1){ //only run on HTML doc types
 	$containerConfig = $modx->getOption('imageseo.containers');
 	$containerConfig = $containerConfig ? $containerConfig : 'article, section, header, footer, aside';
@@ -21,8 +23,8 @@ if($modx->resource->get('content_type') == 1){ //only run on HTML doc types
 	$containers = explode(',', $containerConfig);
 	$headers = explode(',', $headerConfig);
 	$output = &$modx->resource->_output; // get a reference to the output
-	$dom = new DOMDocument;
-	@$dom->loadHTML($output);
+	$html5 = new HTML5();
+	@$dom = $html5->loadHTML($output);
 
 	foreach ($dom->getElementsByTagName('img') as $node) {
 		//find parents matching container array

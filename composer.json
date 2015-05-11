@@ -19,7 +19,8 @@
         "source": "https://github.com/DashMedia/Image-SEO-alt-and-title-tags.git"
     },    
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
+        "masterminds/html5": "2.*"
     },
     "autoload": {
         "classmap":["model/"]
@@ -27,7 +28,7 @@
     "extra": {
         "package_name": "ImageSeoAltAndTitleTags",
         "namespace": "imageseo",
-        "version": "0.10.4",
+        "version": "0.11.0",
         "release": "rc-1",
         "category":"Image SEO"
     }
