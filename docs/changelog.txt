@@ -2,7 +2,7 @@ Changelog for ImageSeo
 
 ImageSeo 0.11.0-rc1
 ---------------------------------
-- Switch to Masterminds/HTML5 for html parsing
+- Switch to Masterminds/html5-php for html parsing
 
 ImageSeo 0.10.4-rc1
 ---------------------------------
