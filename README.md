@@ -21,7 +21,7 @@ Setup
 Known issues
 ============
 
-As this uses the default `DOMDocument` class which relies on php's `libxml2` you can end up with some odd errors with CDATA and some non HTML4 markup
+~~As this uses the default `DOMDocument` class which relies on php's `libxml2` you can end up with some odd errors with CDATA and some non HTML4 markup~~ We now use Masterminds/html5-php <https://github.com/Masterminds/html5-php> for HTML parsing so hopfully these issues have gone away
 
 Author: Jason Carney <jason@dashmedia.com.au>
 
